@@ -1,0 +1,13 @@
+<div class="blocks">
+    <ng-container *ngFor="let block of blocks; let i=index;" [attr.data-index]="i" >
+        <ng-container *ngIf="block.color == 'red'">
+            <div class="block red"></div>
+        </ng-container>
+        <ng-container *ngIf="block.color == 'green'">
+            <div class="block green"></div>
+        </ng-container>
+        <ng-container *ngIf="block.color == 'blue'">
+            <div class="block blue"></div>
+        </ng-container>
+    </ng-container>
+</div>

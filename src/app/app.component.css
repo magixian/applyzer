@@ -1,0 +1,27 @@
+.builder {
+    display: flex;
+    flex-direction: row;
+}
+
+.builder .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 100%;
+}
+
+.builder .button.red {
+    color: white;
+    background-color: red;
+}
+
+.builder .button.green {
+    color: white;
+    background-color: green;
+}
+
+.builder .button.blue {
+    color: white;
+    background-color: blue;
+}
